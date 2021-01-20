@@ -1,0 +1,155 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+    .header .middle {
+        width: 70%;
+        margin-left: 20%;
+    }
+
+        .header .middle div {
+            float: right;
+            width: auto;
+            line-height: 70px;
+            color: #1a1a1a;
+            font-family: Arial;
+            font-size: 12pt;
+        }
+
+        .header .middle .logo {
+            float: left;
+        }
+
+        .header .middle div label {
+            font-family: Arial;
+            font-size: 18pt;
+            color: #0e0e0e;
+        }
+
+        .header .middle div a {
+            text-align: center;
+            color: #0e0e0e;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+.background {
+    float: left;
+    width: 100%;
+    height: auto;
+    background-color: #f0f0f0;
+}
+
+    .background .middleholder {
+        float: left;
+        width: 950px;
+        margin-left: 20%;
+        margin-top: 30px;
+    }
+
+        .background .middleholder .nav {
+            float: left;
+            width: 220px;
+            height: 500px;
+            border: 1px solid #e3e3e3;
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+
+            .background .middleholder .nav hr {
+                width: 100px;
+                margin-left: 20px;
+                color: #a8a8a8;
+            }
+
+            .background .middleholder .nav img {
+                width: 110px;
+                border-radius: 55px;
+                margin-top: 15px;
+                margin-left: 55px;
+            }
+
+            .background .middleholder .nav h2 {
+                margin-top: 20px;
+                width: 180px;
+                margin-left: 20px;
+                font-size: 11pt;
+                color: #3a3a3a;
+                font-family: Arial;
+                font-weight: 400;
+                margin-bottom: 15px;
+            }
+
+            .background .middleholder .nav h3 {
+                margin-top: 20px;
+                width: 180px;
+                margin-left: 20px;
+                font-size: 11pt;
+                font-family: Arial;
+                font-weight: 400;
+                margin-bottom: 15px;
+                color: #a8a8a8
+            }
+
+        .background .middleholder .posts {
+
+            width: 650px;
+            height: 200px;
+            border: 1px solid #e3e3e3;
+            background-color: #ffffff;
+            border-radius: 10px;
+            margin-left: 250px;
+            margin-bottom:30px;
+            padding: 20px;
+        }
+
+            .background .middleholder .posts img {
+                float: left;
+                width: 200px;
+            }
+
+            .background .middleholder .posts h2 {
+                float: left;
+                width: 430px;
+                margin-left: 20px;
+                font-family: Arial;
+                color: #0c0c0c;
+                font-size:16pt;
+                font-weight:300;
+            }
+
+            .background .middleholder .posts h4 {
+                float: left;
+                width: 430px;
+                margin-left: 20px;
+                margin-top: 20px;
+                font-family: Arial;
+                color: #b4b4b4;
+                font-size:8pt;
+            }
+
+            .background .middleholder .posts h3 {
+                float: left;
+                width: 430px;
+                margin-left: 20px;
+                margin-top: 20px;
+                font-family: Arial;
+                color: #b4b4b4;
+                font-size: 12pt;
+                font-weight:300;
+            }
+
+                .background .middleholder .posts h3 a {
+                    color: #b4b4b4;
+                }

@@ -1,0 +1,252 @@
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+}
+
+.mosttop {
+    float: left;
+    width: 100%;
+    height: 40px;
+    background-color: #f8f8f8;
+}
+
+    .mosttop a {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        color: #555c64;
+        text-align: left;
+        margin-left: 4%;
+        line-height: 40px;
+    }
+
+.mosttoprightside {
+    height: 40px;
+    width: 55%;
+    float: right;
+}
+
+    .mosttoprightside a {
+        border-right: 1px solid #555c64;
+        padding-right: 2%;
+        margin-left: 2%;
+    }
+
+    .mosttoprightside img {
+        float: right;
+        margin-top: 5px;
+        margin-right: 5%;
+    }
+
+.logosearch {
+    width: 100%;
+    height: 150px;
+}
+
+    .logosearch .logo {
+        float: left;
+        margin-top: 42px;
+        margin-left: 4%;
+    }
+
+    .logosearch .search {
+        float: left;
+        width: 50%;
+        height: 50px;
+        border: 1.5px solid #dadada;
+        border-radius: 25px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+
+        .logosearch .search h4 {
+            float: left;
+            line-height: 50px;
+            margin-left: 3%;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #838383;
+            font-weight: 100;
+        }
+
+        .logosearch .search div {
+            margin-left: 2%;
+            margin-top: 1px;
+            width: 71%;
+            height: 48px;
+            float: left;
+            border-left: 1.5px solid #dadada;
+        }
+
+            .logosearch .search div input {
+                width: 90%;
+                height: 35px;
+                font-size: 12pt;
+                margin-left: 2%;
+                margin-top: 6px;
+                border: none;
+            }
+
+#searchbutton {
+    background-size: 150%;
+    background-position: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 25px;
+    border-width: 0px;
+    background-image: url(Images/searchlogo.PNG);
+    border-color: none;
+    margin-top: 1px;
+    margin-right: 1px;
+    float: right;
+    cursor: pointer;
+}
+
+.logosearch .mycart {
+    float: left;
+    margin-left: 5%;
+    margin-top: 46px;
+}
+
+    .logosearch .mycart img {
+        float: left;
+    }
+
+    .logosearch .mycart div {
+        float: left;
+        font-family: Cambria;
+    }
+
+        .logosearch .mycart div h2 {
+            font-size: 14pt;
+        }
+
+        .logosearch .mycart div h3 {
+            font-weight: 100;
+        }
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #0089ca;
+}
+
+    .header .headerdiv {
+        margin-left: 50px;
+    }
+
+        .header .headerdiv .ourcategories {
+            background-color: #0996db;
+            padding-right: 100px;
+        }
+
+        .header .headerdiv div {
+            float: left;
+            width: auto;
+            height: 60px;
+            background-color: #0089ca;
+            line-height: 60px;
+        }
+
+            .header .headerdiv div a {
+                float: left;
+                color: white;
+                margin: 10px 20px 10px 20px;
+                text-align: center;
+                font-family: Arial;
+                display: block;
+            }
+
+                .header .headerdiv div a h2 {
+                    font-family: Arial;
+                    font-size: 14pt;
+                    display: block;
+                }
+
+                .header .headerdiv div a h3 {
+                    font-family: Arial;
+                    font-size: 12pt;
+                    font-weight: 500;
+                }
+
+            .header .headerdiv div:hover {
+                background-color: #0078b4;
+            }
+
+        .header .headerdiv span {
+            float: right;
+            margin: 22px;
+            color: white;
+        }
+
+.middle .mainpicture {
+    float: left;
+    width: 60%;
+    height: 545px;
+    background-image: url(Images/mainpicture.PNG);
+    background-size: cover;
+    margin-left: 50px;
+}
+
+    .middle .mainpicture input {
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        margin-left: 45px;
+        margin-top: 315px;
+        background-color: #bbbbbb;
+        color:white;
+        font-size:12pt;
+    }
+
+.middle .righttoppicture {
+    float: left;
+    width: 30%;
+    height: 272px;
+    background-image: url(Images/righttoppicture.PNG);
+    background-size: cover;
+    margin-top: -1.5px;
+}
+
+.middle .rightbottompicture {
+    float: left;
+    width: 30%;
+    height: 272px;
+    background-image: url(Images/rightbottompicture.PNG);
+    background-size: cover;
+}
+
+    .middle .rightbottompicture input {
+        width: 150px;
+        height: 50px;
+        border-radius: 25px;
+        margin-left: 130px;
+        margin-top: 188px;
+        background-color: #006ea3;
+        color: white;
+        font-size: 12pt;
+    }
+
+.bottomside {
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 1214px;
+    height: 130px;
+}
+
+    .bottomside div {
+        float: left;
+        width: 301px;
+        height: 130px;
+        border: 1px solid #e3e3e3;
+    }
